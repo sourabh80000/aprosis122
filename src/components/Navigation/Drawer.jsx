@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import ExpandMenu from "./ExpandMenu";
-import { FaPhoneSquareAlt } from "react-icons/fa";
 const Drawer = ({ isOpen, toggleDrawer, routes }) => {
   return (
     <>
@@ -15,7 +14,6 @@ const Drawer = ({ isOpen, toggleDrawer, routes }) => {
               return <ExpandMenu route={route} key={route.name} />;
             })}
           </NavRoutes>
-          <LoginButton><FaPhoneSquareAlt />9887883998</LoginButton>
         </RightNav>
       </SDrawer>
     </>
@@ -64,21 +62,5 @@ const NavRoute = styled(Link)`
   padding: 0.5rem;
 `;
 
-const LoginButton = styled.button`
-  padding: 0.7rem 3rem;
-  color: black;
-  border: 1px solid black;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  cursor: pointer;
-  font-size: 20px;
-  background: transparent;
 
-  /* &:hover {
-    transition: 0.3s ease;
-    border: 1px solid transparent;
-    background-color: yellow;
-    box-shadow: 0px 0px 10px yellow;
-  } */
-`;
+

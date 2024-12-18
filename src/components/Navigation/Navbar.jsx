@@ -4,8 +4,6 @@ import { FaBars } from "react-icons/fa";
 import Menu from "./Menu";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 
-
-
 const Navbar = ({ toggleDrawer, routes }) => {
   return (
     <SNavbar>
@@ -13,24 +11,22 @@ const Navbar = ({ toggleDrawer, routes }) => {
         <DrawerButton onClick={toggleDrawer}>
           <FaBars />
         </DrawerButton>
-        <SNavbarBrand><img src="./images/logo.png" alt="logo" /></SNavbarBrand>
+        <SNavbarBrand>
+          <img src="./images/logo.png" alt="logo" />
+        </SNavbarBrand>
         <RightNav>
           <NavRoutes>
             {routes.map((route) => {
-              
-                return <Menu route={route} key={route.name} />;
-              
+              return <Menu route={route} key={route.name} />;
             })}
-           
-            
           </NavRoutes>
-          <LoginButton><FaPhoneSquareAlt />9887883998</LoginButton>
+          <LoginButton>
+            <FaPhoneSquareAlt />
+            <a href="tel:9887883998">9887883998</a>
+          </LoginButton>
         </RightNav>
-        
       </NavContainer>
-
     </SNavbar>
-    
   );
 };
 
@@ -47,6 +43,10 @@ const DrawerButton = styled.button`
 
 const SNavbar = styled.nav`
   background-color: #000000;
+  position: fixed;
+  top: 0px;
+  z-index: 200;
+  width: 100%;
 `;
 const NavContainer = styled.div`
   padding: 1rem;
@@ -59,7 +59,7 @@ const NavContainer = styled.div`
   color: white;
 `;
 const SNavbarBrand = styled.h2`
-  img{
+  img {
     width: 15vw;
     margin-top: 8px;
   }
@@ -67,8 +67,6 @@ const SNavbarBrand = styled.h2`
 const RightNav = styled.div`
   display: flex;
   gap: 2rem;
-
-  
 `;
 const NavRoutes = styled.div`
   @media (max-width: 768px) {
@@ -84,7 +82,6 @@ const NavRoutes = styled.div`
 //   color: white;
 //   padding: 2rem 0.5rem;
 //   transition: 0.5s ease;
-  
 
 //   &:hover {
 //     transition: 0.5s ease;

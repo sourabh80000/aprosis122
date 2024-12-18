@@ -27,6 +27,7 @@ const SubRoutesContainer = styled.div`
   left: -1rem;
   visibility: hidden;
   opacity: 0;
+  z-index: 250;
   border-radius: 1rem;
   background-color: white;
   transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
@@ -63,6 +64,6 @@ const SubRoute = styled(Link)`
   &:hover {
     transition: 0.3s ease-in;
     color: white;
-    background-color: #F695C5;
+    background-color: #f695c5;
   }
 `;
