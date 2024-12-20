@@ -6,79 +6,81 @@ export const routes = [
     subRoutes: [
       {
         name: "Network Surveillance",
-        link: "#"
+        link: "network"
       },{
         name: "Video Surveillance",
-        link: "#"
+        link: "video_s"
       },
       {
         name: "Security Information and Event Management (SIEM)",
-        link: "#"
+        link: "security"
       },
       {
         name: "Threat Detection and Monitoring",
-        link: "#"
+        link: "threat"
       },
       {
         name: "IT Infrastorcture Monitoring",
-        link: "#"
+        link: "infrastorcture"
       },
       {
         name: "Cloud Sureillance",
-        link: "#"
+        link: "cloud"
       },
       {
         name: "User Activity Monitoring",
-        link: "#"
+        link: "user_Activity"
       },
       {
         name: "Compliance Monitoring",
-        link: "#"
+        link: "compliance"
       },
       {
         name: "Application Monitoring",
-        link: "#"
+        link: "application"
       },
       {
         name: "Vulnerability Management",
-        link: "#"
+        link: "vulnerability"
       },
     ]
   },
 
 
+  //Communication Systems
   {
-    name: "Communication Systems ",
+    name: "Communication Systems",
     link: "#",
     index: "2",
 
     subRoutes: [
       {
         name: "Telecommunication Systems",
-        link: "/service/web-development",
+        link: "telecommnication",
       },
       {
         name: "Networking Devices",
-        link: "/service/mobile-development",
+        link: "networking_device",
       },
       {
         name: "Wireless Communication",
-        link: "/service/ui-ux-design",
+        link: "wireless",
       },
       {
         name: "Internet Communication",
-        link: "/service/ui-ux-design",
+        link: "internet",
       },{
         name: "Broadcasting Systems",
-        link: "/service/ui-ux-design",
+        link: "broadcasting",
       },{
         name: "Data Communication",
-        link: "/service/ui-ux-design",
+        link: "data",
       },
     ],
   },
 
 
+//Security Systems
   {
     name: "Security Systems",
     link: "/products",
@@ -86,118 +88,120 @@ export const routes = [
     subRoutes: [
       {
         name: "Surveillance Systems",
-        link: "",
+        link: "Sur_sysytem",
       },
       {
         name: "Access Control Systems",
-        link: "",
+        link: "acess_control",
       },
       {
         name: "Burglar Alarm Systems",
-        link: "",
+        link: "Burglar_alarm",
       },
       {
         name: "Fire Alarm Systems",
-        link: "",
+        link: "Fire_alarm",
       },
       {
         name: "Surveillance Monitoring",
-        link: "",
+        link: "Sur_monitaring",
       },
       {
         name: "Emergency Communication Systems",
-        link: "",
+        link: "Emergency",
       },
       {
         name: "Vehicle Surveillance and Tracking",
-        link: "",
+        link: "Vehicle",
       },
       {
         name: "Security Sensors and Detectors",
-        link: "",
+        link: "Sensor_sec",
       },
       {
         name: "Cybersecurity Systems",
-        link: "",
+        link: "Cyber_sec",
       },
       {
         name: "Environmental Security",
-        link: "",
+        link: "Environmental",
       },
     ]
   },
   
 
+  //Networking
   {
-    name: "Networking ",
+    name: "Networking",
     link: "/contact",
     index: "4",
     subRoutes: [
       {
         name: "Network Design and Implementation",
-        link: "",
+        link: "network_design",
       },
       {
         name: "Infrastructure Assessment and Optimization",
-        link: "",
+        link: "assesment_opt",
       },
       {
         name: "Cloud Infrastructure Services",
-        link: "",
+        link: "cloud_infra_service",
       },
       {
         name: "Server Management",
-        link: "",
+        link: "server_management",
       },
       {
         name: "Data Center Solutions",
-        link: "",
+        link: "data_center_solution",
       },
       {
         name: "Network Security Solutions",
-        link: "",
+        link: "network_sec_solution",
       },
       {
         name: "Unified Communication Systems",
-        link: "",
+        link: "unifiead",
       },
       {
         name: "Network Monitoring and Maintenance",
-        link: "",
+        link: "nmm",
       },
       {
         name: "Disaster Recovery and Backup Solutions",
-        link: "",
+        link: "disaster",
       },
       {
         name: "Scalability and Performance Enhancement",
-        link: "",
+        link: "scalability_per",
       },
       {
         name: "Virtualization Services",
-        link: "",
+        link: "virtualization",
       },
       {
         name: "Compliance and Regulatory Solutions",
-        link: "",
+        link: "compliance",
       },
       {
         name: "Wi-Fi and Wireless Solutions",
-        link: "",
+        link: "wi_fi",
       },
       {
         name: "Load Balancing and Traffic Management",
-        link: "",
+        link: "load_balancing",
       },
       {
         name: "IoT Infrastructure Development",
-        link: "",
+        link: "loT",
       },
 
     ]
   },
 
 
+  //IT Consulting
   {
     name: "IT Consulting",
     link: "",
@@ -205,119 +209,117 @@ export const routes = [
     subRoutes: [
       {
         name: "Technology Roadmap Development",
-        link: "",
+        link: "technology_roadmap",
       },
       {
         name: "Digital Transformation",
-        link: "",
+        link: "digital_trans",
       },
       {
         name: "IT Infrastructure Assessment",
-        link: "",
+        link: "it_infra_assesment",
       },
       {
         name: "Business-IT Alignment",
-        link: "",
+        link: "bussiness",
       },
       {
         name: "Risk Management and Compliance",
-        link: "",
+        link: "risk_man",
       },
       {
         name: "Cloud Strategy and Migration",
-        link: "",
+        link: "cloud_stragetty",
       },
       {
         name: "Cost Optimization",
-        link: "",
+        link: "cost_optim",
       },
       {
         name: "Change Management",
-        link: "",
+        link: "change_man",
       },
       {
         name: "Vendor Selection and Management",
-        link: "",
+        link: "vendor",
       },
       {
         name: "Performance Monitoring and Feedback",
-        link: "",
+        link: "perfomence",
       },
-      {
-        name: "",
-        link: "",
-      },
-
     ]
   },
+
+
+  //IT Support
   {
-    name: "IT Support ",
+    name: "IT Support",
     link: "",
     index: "6",
     subRoutes: [
       {
         name: "System Monitoring and Troubleshooting",
-        link: "",
+        link: "smt",
       },
       {
         name: "Help Desk Support",
-        link: "",
+        link: "help_desk",
       },
       {
         name: "Regular Maintenance",
-        link: "",
+        link: "regular",
       },
       {
         name: "Backup and Recovery",
-        link: "",
+        link: "backup",
       },
       {
         name: "Security Management",
-        link: "",
+        link: "sec_mana",
       },
       {
         name: "Asset Management",
-        link: "",
+        link: "asset",
       },
       {
         name: "Software and Application Support",
-        link: "",
+        link: "software_application",
       },
       {
         name: "Performance Optimization",
-        link: "",
+        link: "perfomance_opti",
       },
       {
         name: "Remote Support",
-        link: "",
+        link: "remote",
       },
       {
         name: "Incident and Problem Management",
-        link: "",
+        link: "incident_problem_mana",
       },
       {
         name: "Documentation and Reporting",
-        link: "",
+        link: "document_report",
       },
       {
         name: "Scalability and Future Planning",
-        link: "",
+        link: "scalability",
       },
       {
         name: "Vendor and Third-Party Coordination",
-        link: "",
+        link: "vender_third_p",
       },
       {
         name: "Training and Knowledge Sharing",
-        link: "",
+        link: "training_knowledge",
       },
       {
         name: "Proactive Maintenance",
-        link: "",
+        link: "proactive_main",
       },
       {
         name: "Cost Optimization",
-        link: "",
+        link: "cost_opt",
       },
 
     ]

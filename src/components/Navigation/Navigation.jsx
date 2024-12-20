@@ -14,7 +14,7 @@ const Navigation = () => {
   return (
     <>
       <Drawer routes={routes} isOpen={isOpen} toggleDrawer={toggleDrawer} />
-      <Navbar routes={routes} toggleDrawer={toggleDrawer} />
+      <Navbar toggleDrawer={toggleDrawer} />
     </>
   );
 };

@@ -8,7 +8,7 @@ const Menu = ({ route }) => {
       <SubRoutesContainer>
         {route.subRoutes.map((subRoute) => (
           <SubRoute to={subRoute.link} key={subRoute.name}>
-            {subRoute.name}
+            <Link to={subRoute.link}>{subRoute.name}</Link>
           </SubRoute>
         ))}
       </SubRoutesContainer>
@@ -19,8 +19,11 @@ const Menu = ({ route }) => {
 export default Menu;
 const SubRoutesContainer = styled.div`
   position: absolute;
-  min-width: 32rem;
+  min-width: 35rem;
+  max-height:85vh;
+  overflow:auto;
   display: flex;
+  font-size: 16px;
   flex-direction: column;
   box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 1rem;

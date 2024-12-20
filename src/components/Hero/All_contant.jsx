@@ -42,7 +42,6 @@ const All_contant = () => {
   return (
     <>
       {content.map((item, index) => {
-        console.log(index);
         if (index % 2 === 0) {
           return (
             <>

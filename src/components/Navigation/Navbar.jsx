@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import Menu from "./Menu";
 import { FaPhoneSquareAlt } from "react-icons/fa";
+import { routes } from "../../constant";
 
-const Navbar = ({ toggleDrawer, routes }) => {
+const Navbar = ({ toggleDrawer}) => {
   return (
     <SNavbar>
       <NavContainer>
