@@ -3,7 +3,7 @@ const Network = ({internet}) => {
   return (
     <div id='net_parent_div'>
       <div id='network_img'>
-        <img src="./images/Network_Surveillance.jpg" alt="img" />
+        <img src="./images/It_services/it_services.jpg" alt="img" />
       </div>
       <div id='network_data'>
         <h1 id='network_h1'>Network Surveillance</h1>
