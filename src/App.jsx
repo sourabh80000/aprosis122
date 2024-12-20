@@ -13,7 +13,6 @@ import User_Activity from "./components/Hero/itservice/User_Activity";
 import Video_s from "./components/Hero/itservice/Video_s";
 import Vulnerability from "./components/Hero/itservice/Vulnerability";
 import Video from "./components/Home/Video";
-<<<<<<< HEAD
 import Broadcasting from "./components/Hero/communication_system/Broadcasting";
 import Data from "./components/Hero/communication_system/Data";
 import Internet from "./components/Hero/communication_system/Internet";
@@ -70,15 +69,7 @@ import Wi_fi from "./components/Hero/networking/Wi_fi";
 import Virtualization from "./components/Hero/networking/Virtualization";
 import Scalability_per from "./components/Hero/networking/Scalability_per";
 
-=======
-import Cursor from "./components/Navigation/Cursor";
 
-// import About from "./pages/About";
-// import Contact from "./pages/Contact";
-// import Projects from "./pages/Products";
-// import Services from "./pages/Services";
-// import Home from "./pages/Home";
->>>>>>> 3f78fb4f5045d850aa2c23aa2afb9c23696432ac
 const App = () => {
   const router =  createBrowserRouter([
     {path:"", element:<Layout />,children:[
@@ -165,15 +156,10 @@ const App = () => {
   ])
   
   return (
-<<<<<<< HEAD
+
   <RouterProvider router={router} />
-=======
-    <Router>
-      <Navigation />
-      <Video/>
-     <Cursor/>
-    </Router>
->>>>>>> 3f78fb4f5045d850aa2c23aa2afb9c23696432ac
+
+  
   );
 };
 

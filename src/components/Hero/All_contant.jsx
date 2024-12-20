@@ -1,5 +1,5 @@
 import "../../index.css";
-import "../../cursor.js";
+
 import { useState } from "react";
 const All_contant = () => {
   const content = [
@@ -49,13 +49,8 @@ const All_contant = () => {
 
   return (
     <>
-<<<<<<< HEAD
-      {content.map((item, index) => {
-        if (index % 2 === 0) {
-=======
       <div id="cursor_none" className=" flex flex-wrap  justify-evenly ">
         {content.map((item, index) => {
->>>>>>> 3f78fb4f5045d850aa2c23aa2afb9c23696432ac
           return (
             <>
               <div
@@ -83,7 +78,7 @@ const All_contant = () => {
         })}
       </div>
 
-      <div className=" cursor-none bg-[#edeeee]">
+      <div className="  bg-[#edeeee]">
         <marquee behavior="" direction="">
           <div id="scroll-container" className="flex">
             <img src="./images/marquee_img/AWS.webp" alt="" />
