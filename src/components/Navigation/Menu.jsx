@@ -20,8 +20,8 @@ export default Menu;
 const SubRoutesContainer = styled.div`
   position: absolute;
   min-width: 35rem;
-  max-height:85vh;
-  overflow:auto;
+  max-height: 85vh;
+  overflow: auto;
   display: flex;
   font-size: 16px;
   flex-direction: column;
@@ -52,8 +52,9 @@ const MenuButton = styled.div`
   &:hover {
     transition: 0.5s ease;
     color: black;
-    background-color: pink;
-    box-shadow: 0px 0px 10px white;
+    background-color: #eab308;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 0.5rem;
   }
 `;
 
@@ -66,7 +67,10 @@ const SubRoute = styled(Link)`
 
   &:hover {
     transition: 0.3s ease-in;
-    color: white;
-    background-color: #f695c5;
+    color: black;
+    background-color: #eab308;
+    font-weight: 600;
+    transition: ease;
+    animation-duration: 0.3s;
   }
 `;

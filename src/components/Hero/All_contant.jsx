@@ -1,6 +1,7 @@
 import "../../index.css";
 
 import { useState } from "react";
+import Solution from "./Solution";
 const All_contant = () => {
   
   const content = [
@@ -79,7 +80,7 @@ const All_contant = () => {
         })}
       </div>
 
-      <div className="  bg-[#edeeee]">
+      <div  className=" mt-9 ">
         <marquee behavior="" direction="">
           <div id="scroll-container" className="flex">
             <img src="./images/marquee_img/AWS.webp" alt="" />
@@ -103,6 +104,7 @@ const All_contant = () => {
           </div>{" "}
         </marquee>
       </div>
+      <Solution />
     </>
   );
 };
