@@ -3,10 +3,6 @@ import Solution from "./Solution";
 import { useState } from "react";
 
 const All_contant = () => {
-
-
-
-
   const [cards, setCards] = useState([
     {
       img: "./images/It_services/it_services.jpg",
@@ -130,27 +126,27 @@ const All_contant = () => {
             <div className="card">
               <div className="card-front">
                 <img className="h-96 w-full " src={card.img} alt="img" />
-                <h1 className=" ml-8 text-3xl font-semibold my-4 underline underline-offset-4">
+                <h1 className=" text-black ml-8 text-3xl font-semibold my-4 underline underline-offset-4">
                   {card.cname}
                 </h1>
                 <p
-                  className="px-4  text-2xl text-[#444343] w-[98%] text-justify leading-8
+                  className="px-4  text-2xl text-[#1b1b1b] w-[98%] text-justify leading-8
                  tracking-tight hover:text-black ease-in duration-1000 overflow-hidden h-[145px]"
                 >
                   {card.summary}
                 </p>
-                <div>
+                <div className="bg-black h-[8vh] mt-5 w-full text-center">
                   <button
                     onClick={() => handleFlip(card.id)}
-                    className=" text-white mx-4 px-4  py-2 rounded-3xl  bg-[#475764] shadow-lg shadow-cyan-500/50  hover:bg-white hover:text-[#068FFF] ease-linear duration-1000"
+                    className=" text-black mx-4 px-4 m-4  py-2 rounded-3xl  bg-yellow-500 shadow-lg hover:bg-white ease-linear duration-1000"
                   >
-                    see more
+                    SEE MORE
                   </button>
                 </div>
               </div>
               <div className="card-back" onClick={() => handleFlip(card.id)}>
                 <p
-                  className="px-4  text-2xl text-black w-[98%] text-justify leading-8
+                  className="p-16  text-2xl text-black w-[98%] text-justify leading-8
                  tracking-tight  ease-in duration-1000 overflow-hidden "
                 >
                   {card.summary}
