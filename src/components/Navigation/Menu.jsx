@@ -63,13 +63,14 @@ const SubRoute = styled(Link)`
   color: black;
   padding: 1rem;
   border-radius: 0.5rem;
+  font-weight: 300;
   transition: 0.3s ease-in;
 
   &:hover {
     transition: 0.3s ease-in;
     color: black;
     background-color: #eab308;
-    font-weight: 600;
+    font-weight: 400;
     transition: ease;
     animation-duration: 0.3s;
   }
