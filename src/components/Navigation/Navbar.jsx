@@ -23,7 +23,7 @@ const Navbar = ({ toggleDrawer}) => {
           </NavRoutes>
           <LoginButton>
             <FaPhoneSquareAlt />
-            <a href="tel:9887883998">9887883998</a>
+            <a href="tel:9887883998">+91 9887883998</a>
           </LoginButton>
         </RightNav>
       </NavContainer>

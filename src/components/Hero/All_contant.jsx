@@ -157,7 +157,7 @@ const All_contant = () => {
         ))}
       </div>
 
-      <div className=" mt-9 ">
+      <div className=" mt-9">
         <marquee behavior="" direction="">
           <div id="scroll-container" className="flex">
             <img src="./images/marquee_img/AWS.webp" alt="" />
